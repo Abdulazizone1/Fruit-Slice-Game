@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="container" class="ui-corner-all">
+        <div id="score" class="ui-corner-all">
+            Score: <span id="scorevalue" class="ui-corner-all"></span>
+        </div>
+        
+        <div id="playArea" class="ui-corner-all">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="instuction" class="ui-corner-all">
+           Cut the fruit and get points!
+        </div>
+    <audio src="audio/mixkit-metal-hit-woosh-1485.wav" id="audio"></audio>
+    <audio src="audio/end of game.mp3" id="end"></audio>
+    <audio src="audio/missed.mp3" id="missed"></audio>
+        <button id="startReset">Start playing</button>
+      
+        <div id="trails" class="ui-corner-all"><span id=""></span></div>
+        <div id="gameOver" class="ui-corner-all">
+        </div>
+</div>
+
+    <script src="jQuery.js"></script>
+</body>
+
+</head>        

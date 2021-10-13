@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url("images/kube.jpg");
+}
+
+#container{
+    position: relative;
+    background-color: aqua;
+    height: 600px;
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(68, 164, 194);
+    -moz-box-shadow: 5px 5px 2px rgb(68, 164, 194);
+    -webkit-box-shadow: 5px 5px 2px rgb(68, 164, 194);
+}
+
+#score{
+    background-color: yellow;
+    position: absolute;
+    left: 710px;
+    top: 10px;
+    padding: 10px;
+    color: rgb(60, 62, 182);
+    box-shadow: 5px 5px 3px;
+    -moz-box-shadow: 5px 5px 3px;
+    -webkit-box-shadow: 5px 5px 3px;
+}
+
+#playArea{
+    margin: 40px auto 10px auto;
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    -webkit-box-shadow: 5px 5px 3px;
+    box-shadow: 5px 5px 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+#instuction{
+    height: 50px;
+    width: 450px;
+    background-color: rgb(253, 150, 14);
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 5px 5px 3px;
+    -moz-box-shadow: 5px 5px 3px;
+    -webkit-box-shadow: 5px 5px 3px;
+}
+#startReset{
+    padding: 10px;
+    position: absolute;
+    left: 350px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px;
+    -webkit-box-shadow: 3px 3px 3px;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+}
+#startReset:hover{
+    background-color: violet;
+    font-size: 1em;
+    cursor: pointer;
+    color: antiquewhite;
+    box-shadow: 3px 3px 3px black;
+    -moz-box-shadow: 3px 3px 3px black;
+    -webkit-box-shadow: 3px 3px 3px black;
+
+}
+
+#trails{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: yellow;
+    padding: 5px;
+    box-shadow: 3px 3px 3px black;
+    -moz-box-shadow: 3px 3px 3px black;
+    -webkit-box-shadow: 3px 3px 3px black;
+    display: none;
+}
+
+#gameOver{
+    text-align: center;
+    text-shadow: 2px 0 rgb(236, 236, 231);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    top: 130px;
+    left: 100px;
+    display: block;
+    background: linear-gradient(rgba(224, 89, 89, 0.829), rgb(136, 4, 4))
+}
+.hart{
+    width: 30px;
+    height: 30px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
+
+/* 
+.box:active{
+    height: 85px;
+}
+#choises{
+    width: 450px;
+    height: 100px;
+    margin: 10px auto 0px auto;
+}
+
+#correct{
+    background-color: rgb(102, 250, 83);
+    padding: 10px;
+    position: absolute;
+    left: 250px;
+    color: white;
+    box-shadow: 5px 5px 3px yellowgreen;
+    -moz-box-shadow: 5px 5px 3px yellowgreen;
+    -webkit-box-shadow: 5px 5px 3px yellowgreen;
+    display: none;
+
+}
+#wrong{
+    background-color: rgb(209, 24, 24);
+    padding: 10px;
+    position: absolute;
+    left: 240px;
+    color: white;
+    box-shadow: 5px 5px 3px chocolate;
+    -moz-box-shadow: 5px 5px 3px chocolate;
+    -webkit-box-shadow: 5px 5px 3px chocolate;
+    display: none;
+}
+
+.box{
+    height: 85px;
+    width: 85px;
+    float: left;
+    margin-right: 35px;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px;
+    -webkit-box-shadow: 3px 3px 3px;
+}
+.box:hover{
+    background-color: violet;
+    font-size: 2em;
+    cursor: pointer;
+    height: 90px;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+}
+#box1{
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 35px;
+}
+#box2{
+    background-color: white;
+    height: 85px;
+    width: 85px;
+    float: left;
+    margin-right: 35px;
+}
+#box3{
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 35px;
+}
+
+#box4{
+    margin-right: 0;
+}
+*/
